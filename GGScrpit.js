@@ -20,7 +20,7 @@ function Ggraph () {
     ctx.lineTo(scaledX(nx),scaledY(plugX2(nx)));
     ctx.stroke();
   }
-  $("#yInt").text("Y intercept is at (0," + plugX2(0)+")");
+  $("#yint").text("Y intercept is at (0," + plugX2(0)+")");
   ctx.beginPath();
   ctx.arc(scaledX(0),scaledY(plugX2(0)),5,0,6.28);
   ctx.fill();
